@@ -1,0 +1,7 @@
+<div class="class">
+    <div *ngIf="canShow"> diretiva com if </div>
+    <div *ngIf="name === 'e'; else nameNotFound"> diretiva com if </div>
+    <ng-template #nameNotFound>
+        <h2>nome nao foi emcontrado</h2>
+    </ng-template>
+</div>
