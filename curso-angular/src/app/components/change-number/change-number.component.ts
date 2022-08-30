@@ -12,7 +12,6 @@ export class ChangeNumberComponent implements OnInit {
   ngOnInit(): void {
   }
   hander(): void{
-    console.log("foii")
     this.changeNumber.emit()
   }
 }
